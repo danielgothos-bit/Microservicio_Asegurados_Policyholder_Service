@@ -1,0 +1,50 @@
+services:
+  policyholder_service:
+    build: .
+    container_name: policyholder_service
+    ports:
+      - "8002:8000"
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/policyholder_db
+      REDIS_URL: redis://redis:6379/0
+    env_file:
+      - path: .env
+        required: false
+    depends_on:
+      - postgres
+      - redis
+
+  policyholder_worker:
+    build: .
+    container_name: policyholder_worker
+    command: celery -A comun.celery_app worker -Q policyholder --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/policyholder_db
+      REDIS_URL: redis://redis:6379/0
+    env_file:
+      - path: .env
+        required: false
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:16
+    container_name: policyholder_db
+    environment:
+      POSTGRES_DB: policyholder_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: policyholder_redis
+    ports:
+      - "6381:6379"
+
+volumes:
+  postgres_data:
