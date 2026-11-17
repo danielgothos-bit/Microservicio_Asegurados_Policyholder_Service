@@ -1,0 +1,156 @@
+[
+{
+  "model": "asegurados.asegurado",
+  "pk": "47a8895d-881a-41ee-ba2d-7d48b5cbbc6c",
+  "fields": {
+    "nombre": "Valentina",
+    "apellido": "Rojas",
+    "national_id": "1067395761",
+    "email": "valentina.rojas564@example.com",
+    "telefono": "3104567890",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-17T17:18:22.958Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "53392dff-d46c-4b66-8e48-1e83aa9b4d69",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "191061773",
+    "email": "cliente910619@example.com",
+    "telefono": "3109998877",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-10T19:59:33.713Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "5f547a3c-bd54-4d05-82b6-b55068d0cc58",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "16882b616",
+    "email": "cliente6882bf@example.com",
+    "telefono": "3109998877",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-10T19:56:56.303Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "61edfb02-7f84-465b-8df1-977b50077f06",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "77d02082",
+    "email": "cliented02082@example.com",
+    "telefono": "3001112233",
+    "direccion": "Montería",
+    "kyc_status": "pendiente",
+    "fecha_registro": "2026-10-13T18:54:22.527Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "699b755e-1fef-4ab6-96f7-de580bf18cba",
+  "fields": {
+    "nombre": "Valentina",
+    "apellido": "Rojas",
+    "national_id": "1067960743",
+    "email": "valentina.rojas510@example.com",
+    "telefono": "3104567890",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-17T17:16:37.336Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "7a51d920-c0fa-4d11-8dfb-b455a71db6c2",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Martínez",
+    "national_id": "107702621",
+    "email": "lauraojlgr@example.com",
+    "telefono": "3001112233",
+    "direccion": "Montería",
+    "kyc_status": "pendiente",
+    "fecha_registro": "2026-10-13T18:55:02.670Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "7ba35437-8689-422e-8082-867664cd65be",
+  "fields": {
+    "nombre": "Ana",
+    "apellido": "Gómez",
+    "national_id": "103363d5",
+    "email": "ana3363d5@example.com",
+    "telefono": "3001234567",
+    "direccion": "Calle 10 # 20-30, Medellín",
+    "kyc_status": "pendiente",
+    "fecha_registro": "2026-10-06T16:53:57.578Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "b0bb0232-36bb-4f1a-b84a-898cdcab254c",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "17bd0f388",
+    "email": "cliente7bd0fb@example.com",
+    "telefono": "3109998877",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-10T19:53:08.828Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "e670e357-4430-489b-a2a7-e709e96da39c",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "1067123987",
+    "email": "laura.react@example.com",
+    "telefono": "3001234567",
+    "direccion": "",
+    "kyc_status": "pendiente",
+    "fecha_registro": "2026-11-10T22:28:56.483Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "ebe8951e-4afa-465d-98e5-6e0a3060c6a0",
+  "fields": {
+    "nombre": "Otro",
+    "apellido": "Cliente",
+    "national_id": "88d02082",
+    "email": "otrod02082@example.com",
+    "telefono": "",
+    "direccion": "",
+    "kyc_status": "pendiente",
+    "fecha_registro": "2026-10-13T18:54:30.251Z"
+  }
+},
+{
+  "model": "asegurados.asegurado",
+  "pk": "f981402e-0777-42b1-9aae-d86aa132f2ed",
+  "fields": {
+    "nombre": "Laura",
+    "apellido": "Prueba",
+    "national_id": "1677374663",
+    "email": "cliente677379@example.com",
+    "telefono": "3109998877",
+    "direccion": "Montería",
+    "kyc_status": "verificado",
+    "fecha_registro": "2026-11-17T16:57:43.343Z"
+  }
+}
+]
